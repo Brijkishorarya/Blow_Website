@@ -1,0 +1,232 @@
+.header{
+    width: 1200px;
+    margin: auto;
+}
+
+.blogsHeading
+.actorsHeading{
+    color: #7E685A;
+    font-size: 60px;
+}
+
+.title, 
+.actor, 
+.description{
+    width: 80%;
+    padding: 5px;
+    font-size: 24px;
+}
+
+.blogsForm{
+    /* border: 1px solid black; */
+    padding: 5px;
+}
+
+.descriptionBox, 
+.titleBox, 
+.actorBox{
+    display: flex;
+    /* border: 1px solid black; */
+    margin: 5px;
+    font-size: 24px;
+    justify-content: space-between;
+}
+
+.header{
+    text-align: center;
+}
+
+.titleText, 
+.descriptionText, 
+.actorText{
+    color: #4E4E50;
+}
+
+.submitBtn{
+    font-size: 24px;
+    width: 20%;
+}
+
+/* Blogs Item CSS  */
+.blogsList{
+    list-style: none;
+    width: 1200px;
+    margin: 20px auto;
+}
+
+.blogItem{
+    font-size: 24px;
+    border: 1px solid #ccc;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.blogDescription{
+    margin-top: 20px;
+}
+
+.submitBtn{
+    background-color: red; /* Change the background color if needed */
+    color: #ffffff; /* Set the text color to white */
+    font-size: 30px; /* Set the font size */
+    padding: 10px 20px; /* Adjust the padding as needed */
+    border: none; /* Remove the border if needed */
+    cursor: pointer; /* Add a pointer cursor to indicate interactivity */
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.submitBtn:hover {
+    background-color: darkred; /* Change the background color on hover */
+}
+
+.btndelete{
+    background-color: red; /* Change the background color if needed */
+    color: #ffffff; /* Set the text color to white */
+    font-size: 16px; /* Set the font size */
+    padding: 10px 20px; /* Adjust the padding as needed */
+    border: none; /* Remove the border if needed */
+    cursor: pointer; /* Add a pointer cursor to indicate interactivity */
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.btndelete:hover {
+    background-color: darkred; /* Change the background color on hover */
+}
+
+.btnupdate{
+    background-color: red; /* Change the background color if needed */
+    color: #ffffff; /* Set the text color to white */
+    font-size: 16px; /* Set the font size */
+    padding: 10px 20px; /* Adjust the padding as needed */
+    border: none; /* Remove the border if needed */
+    cursor: pointer; /* Add a pointer cursor to indicate interactivity */
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.btnupdate:hover {
+    background-color: darkred; /* Change the background color on hover */
+}
+
+.viewDetails{
+    background-color: red; /* Change the background color if needed */
+    color: #ffffff; /* Set the text color to white */
+    font-size: 16px; /* Set the font size */
+    padding: 10px 20px; /* Adjust the padding as needed */
+    border: none; /* Remove the border if needed */
+    cursor: pointer; /* Add a pointer cursor to indicate interactivity */
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.viewDetails:hover {
+    background-color: darkred; /* Change the background color on hover */
+}
+
+/* .navbar{
+    border: 1px solid black;
+    font-size: 24px;
+    padding: 15px;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: #7E685A;
+}
+
+ .navItem{
+    color: black;
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.navItem:first-child{
+    margin-left: 20px;
+}
+
+.navItem:first-child{
+    margin-right: 0;
+}
+
+.navItem:hover{
+    color: #0e0e2a;
+} */
+
+nav{
+    border: 1px solid black;
+    font-size: 30px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #7E685A;
+}
+
+a{
+    color: black;
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+a:first-child{
+    margin-left: 20px;
+}
+
+a:last-child{
+    margin-right: 0;
+}
+
+a:hover{
+    color: #0e0e2a;
+} 
+
+.name, 
+.actorImageUrl, 
+.actor{
+    width: 80%;
+    padding: 5px;
+    font-size: 24px;
+}
+
+
+
+.nameBox, 
+.actorBox, 
+.ageBox{
+    display: flex;
+    /* border: 1px solid black; */
+    margin: 5px;
+    font-size: 24px;
+    justify-content: space-between;
+}
+
+.nameText
+.actorImage
+.ageText{
+    color: #4E4E50;
+}
+
+li{
+    border: 1px solid black;
+    list-style-type: none;
+}
+
+.actorList{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    {{> navbar}}
+    
+    <div class="header">
+        <h1 class="blogsHeading">Blogs Site</h1>
+
+        <form class="blogsForm" action="/blogs" method="POST">
+            <div class="titleBox">
+                <span class="titleText">Title:</span>
+                <input class="title" name="title" placeholder="Enter Title" type="text">
+            </div>
+            <div class="actorBox">
+                <span class="actorText">Actor:</span>
+                <input class="actor" name="actor" placeholder="Enter Actor" type="text"> 
+            </div>
+            <div class="descriptionBox">
+                <span class="descriptionText">Description:</span>
+                <textarea class="description" rows="5" name="description" placeholder="Enter description" type="text">Write the description...</textarea>           
+             </div>
+
+           
+            <button class="submitBtn" type="submit">Add Blog</button>
+        </form>
+    </div>
+
+
+    <ul class="blogsList">
+        {{#each blogs as |blog|}}
+        <li class="blogItem">
+            <div class="blogTitle">
+                <span class="blogTitleHeading">Title:</span>
+                <span class="blogTitleText">{{blog.title}}</span>
+            </div>
+            <div class="blogActor">
+                <span class="blogDescriptionHeading">Actor:</span>
+                <span class="blogDescriptionText">{{blog.actor}}</span>
+            </div>
+            <div class="blogDescription">
+                <span class="blogDescriptionHeading">Description:</span>
+                <span class="blogDescriptionText">{{blog.description}}</span>
+            </div>
+
+            <button>
+                <a class="btndelete" href="/delete?id={{blog._id}}">Delete</a>
+            </button>
+
+            <button>
+                <a class="btnupdate" href="/update?id={{blog._id}}">Update</a>
+            </button>
+
+            <button>
+                <a class="viewDetails" href="/details?id={{blog._id}}">Details</a>
+            </button>
+        </li>
+        {{/each}}
+    </ul>
+</body>
+</html>

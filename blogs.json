@@ -1,0 +1,22 @@
+[
+    {
+        "title" : "Harry Potter",
+        "actor" : "Daniel Radcliffe", 
+        "description" : "Harry Potter is a fictional character and the main character in the Harry Potter series of novels by J.K. Rowling. Harry is a young wizard with black hair and bright green eyes. He has a lightning bolt-shaped scar on his forehead. Harry is described as small and skinny for his age, with a thin face and knobbly knees. He wears Windsor glasses"
+    },
+    {
+        "title" : "Game of Thrones",
+        "actor" : "Emilia Clarke", 
+        "description" : "Set on the fictional continents of Westeros and" 
+    },
+    {
+        "title" : "Hera Pheri",
+        "actor" : "Akshay Kumar", 
+        "description" : "Shyam then approaches a garage owned by a man"
+    },
+    {
+        "title" : "Captain America",
+        "actor" : "Chris Evans", 
+        "description" : "Captain America is a superhero created by Marvel Comics"
+    }
+]
